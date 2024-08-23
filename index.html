@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waitlist Signup - Datenyu</title>
+    <style>
+        body {
+            background-color: #2e004f;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 5em;
+            margin-bottom: 30px;
+            color: #ffb3ff;
+        }
+        p.disclaimer {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #ffb3ff;
+        }
+        form {
+            margin: 0 auto;
+            max-width: 500px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+        }
+        input[type="email"] {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-left: -10px;
+            font-size: 1.2em;
+            background-color: #660099;
+            color: #fff;
+        }
+        input[type="submit"] {
+            background-color: #9933ff;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #cc33ff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>DateNYU</h2>
+    <img src="images/promo.png" alt="Promotional Image">
+    <h1>Join Our Waitlist!</h1>
+    <p class="disclaimer">Please enter your @nyu.edu email address only.</p>
+    <form action="/submit" method="post">
+        <input type="email" name="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@nyu\.edu$" title="Please enter a valid @nyu.edu email address." required>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+<br>
+<br>
+
+<footer>
+    &copy; 2024 DateNYU. All rights reserved.
+</footer>
+</body>
+</html>
+</html>
