@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,6 +62,13 @@
             height: auto;
             margin-bottom: 30px;
         }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #2e004f;
+            color: #fff;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -70,17 +76,15 @@
     <img src="images/promo.png" alt="Promotional Image">
     <h1>Join Our Waitlist!</h1>
     <p class="disclaimer">Please enter your @nyu.edu email address only.</p>
-    <form action="/submit" method="post">
-        <input type="email" name="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@nyu\.edu$" title="Please enter a valid @nyu.edu email address." required>
+    
+    <!-- Form for collecting email addresses -->
+    <form action="https://script.google.com/macros/s/AKfycbwQgOR8idYMVXsVzRG5qJsTsxUA5GQqOGAUTM_pZDaPsIVUeLR-50fm8raCEaxAh0Cs/exec" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
         <input type="submit" value="Sign Up">
     </form>
+    
+    <footer>
+        &copy; 2024 DateNYU. All rights reserved.
+    </footer>
 </body>
-<br>
-<br>
-
-<footer>
-    &copy; 2024 DateNYU. All rights reserved.
-</footer>
-</body>
-</html>
 </html>
