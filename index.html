@@ -79,9 +79,10 @@
     
     <!-- Form for collecting email addresses -->
     <form action="https://script.google.com/macros/s/AKfycbwQgOR8idYMVXsVzRG5qJsTsxUA5GQqOGAUTM_pZDaPsIVUeLR-50fm8raCEaxAh0Cs/exec" method="POST">
-        <input type="email" name="email" placeholder="Enter your email" pattern="[a-z0-9]+nyu\.edu$" required>
-        <input type="submit" value="Sign Up">
-    </form>
+    <input type="email" name="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@nyu\.edu" title="Please enter a valid @nyu.edu email address." required>
+    <input type="submit" value="Sign Up">
+</form>
+
     
     <footer>
         &copy; 2024 DateNYU. All rights reserved.
